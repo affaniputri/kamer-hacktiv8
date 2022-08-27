@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewreport" content="width=device-width, initial-scale=1.0">
+        <title>Latihan 7</title>
+    </head>
+    <body>
+        <h2>Formulir Pendaftaran</h2>
+
+        <form action="">
+            <label for="nama">Nama Saya: </label>
+            <input type="text" name="nama_depan" id="nama_depan"/>
+            <input type="text" name="nama_belakang" id="nama_belakang"/> <br/>
+
+            <label for="jk">Jenis Kelamin</label>
+            <select name="jk" id="jk">
+                <option value="" disabled selected>- Pilih Satu</option>
+                <option value="Laki-laki">Laki-laki</option>
+                <option value="Perempuan">Perempuan</option>
+            </select><br/>
+            
+            <label for="tanggal_lahir">Tanggal Lahir</label>
+            <input type="date" name="tanggal_lahir" id="tanggal_lahir"/><br/>
+
+            <label for="kewarganegaraan">Saya Tinggal di</label>
+            <select name="kewarganegaraan" id="kewarganegaraan">
+                <option value="Indonesia">Indonesia</option>
+                <option value="Amerika Serikat">Amerika Serikat</option>
+                <option value="Malaysia">Malaysia</option>
+            </select><br/>
+
+            <label for="alamat" style="vertical-align: top;">Alamat</label>
+            <textarea name="alamat" id="alamat" cols="30" rows="5"/></textarea><br/>
+
+            <label for="nilai_pretest">Nilai Pretest</label>
+            <input type="number" name="nilai_pretest" id="nilai_pretest"/><br/>
+
+            <label for="hobi">Hobi</label><br/>
+            <input type="checkbox" name="hobi1" id="hobi1" value="Gaming"/>
+            <label for="hobi1">Gaming</label><br/>
+            <input type="checkbox" name="hobi2" id="hobi2" value="Coding"/>
+            <label for="hobi2">Coding</label><br/>
+            <input type="checkbox" name="hobi3" id="hobi3" value="Hiking"/>
+            <label for="hobi3">Hiking</label><br/>
+
+            <label for="hobi">Mata Pelajaran</label><br/>
+            <input type="radio" name="mapel1" id="mapel1" value="Matematika"/>
+            <label for="mapel1">Matematika</label><br/>
+            <input type="radio" name="mapel2" id="hmapel2" value="Fisika"/>
+            <label for="mapel2">Fisika</label><br/>
+            <input type="radio" name="mapel3" id="mapel3" value="Kimia"/>
+            <label for="mapel1">Kimia</label><br/>
+
+            <input type="submit" value="Simpan"/>
+            <input type="reset" value="hapus">
+        </form>
+    </body>
+</html>

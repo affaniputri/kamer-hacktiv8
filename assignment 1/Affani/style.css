@@ -1,0 +1,171 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.a1{
+    position: relative;
+    background-color: blue;
+    padding: 18px 32px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+}
+.a2{
+  background-color: white;
+  color: #4CAF50;
+  border: 2px solid #4CAF50;
+  font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    position: relative;
+    margin-top: -140px;
+    margin-left: 600px;
+    height: 150px;
+    width: 0px;
+    opacity: 0.5;
+}
+body{
+    margin: 0;
+    background-color: lightgray;
+}
+.container{
+    margin: auto;
+    width: 1400px;
+    height: 200px;
+    background-color: white;
+}
+.container2{
+    margin: auto;
+    width: 1400px;
+    height: 400px;
+    background-color: white;
+    margin-top: 50px;
+}
+img{
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 150px;
+    border-radius: 100px;
+}
+h1{
+    display: block;
+    position: relative;
+    font-size: 25px;
+    margin-top: -150px;
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    display: block;
+    position: relative;
+    margin-top: -10px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.avail{
+    display: block;
+    position: relative;
+    margin-top: -162px;
+    margin-left: 620px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.usia{
+    display: block;
+    position: relative;
+    margin-top: -5px;
+    margin-left: 620px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.lokasi{
+    display: block;
+    position: relative;
+    margin-top: -5px;
+    margin-left: 620px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.pengalaman{
+    display: block;
+    position: relative;
+    margin-top: -5px;
+    margin-left: 620px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.email{
+    display: block;
+    position: relative;
+    margin-top: -5px;
+    margin-left: 620px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.biodata1{
+    display: block;
+    position: relative;
+    margin-top: -175px;
+    margin-left: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.biodata2{
+    display: block;
+    position: relative;
+    margin-top: -13px;
+    margin-left: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.biodata3{
+    display: block;
+    position: relative;
+    margin-top: -13px;
+    margin-left: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.biodata4{
+    display: block;
+    position: relative;
+    margin-top: -13px;
+    margin-left: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.biodata5{
+    display: block;
+    position: relative;
+    margin-top: -15px;
+    margin-left: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}

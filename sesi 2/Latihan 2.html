@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 2</title>
+    <style>
+        body{
+            background-color: pink;
+            color: blue;
+        }
+
+        #techno-wrapper{
+            background: silver;
+            color: brown;
+        }
+
+        #table-wrapper{
+            background: bisque;
+            color: green;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .kotak1{
+            background: plum;
+            height: 200px;
+            width: 300px;
+            /*margin jarak elemen html ke sisi luar
+            margin-top: 40px;
+            margin-right: 20px;
+            margin-bottom: 15px;
+            margin-left: 60px;*/
+            margin: 40px, 20px, 15px, 60px; /*atas kanan bawah kiri*/
+        }
+
+        .kotak2{
+            background-color: yellow;
+            overflow-y: auto;
+            height: 100px;
+            width: 500px;
+            margin: 55px,70px; /* atas bawah dan kanan kiri*/
+            float: right;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        
+        .kotak2 p{
+            font-family: 'Courier New', Courier, monospace;
+            padding: 0px 10px;
+        }
+
+        .kotak3{
+            background-color: aqua;
+            height: 200px;
+            width: 300px; 
+            padding: 100px, 90px, 10px, 20px; 
+        }
+
+        .kotak4{
+            background-color: red;
+            height: 200px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cara Ubah Warna Background CSS</h1>
+    <h2>Metode 1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing 
+        elit. Maiores quo praesentium iure numquam, cumque 
+        tempora labore rem neque, voluptate quidem veritatis 
+        harum ut assumenda id ab minima ipsum perspiciatis 
+        doloremque?</p>
+
+    <div id="techno-wrapper">
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+
+    <div id="table-wrapper">
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td>No</td>
+                <td>Nama</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Affani</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Fajar</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="kotak1">
+        <h1>Ini kotak 1</h1>
+    </div>
+
+    <div class="kotak2">
+        <h1>Ini kotak 2</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, suscipit ea ipsum et facere magni voluptatibus rem recusandae fugiat nihil ducimus eos at error deleniti eum nesciunt. Corrupti, iusto voluptatem.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatibus nesciunt ea iusto, dolor consequuntur perferendis rerum quibusdam qui totam mollitia odit. Facilis commodi dignissimos consequatur, culpa recusandae modi omnis.</p>
+    </div>
+
+    <div class="kotak3">
+        <h1>Ini kotak 3</h1>
+    </div>
+
+    <div class="kotak4">
+        <h1>Ini kotak 4</h1>
+    </div>
+</body>
+</html>

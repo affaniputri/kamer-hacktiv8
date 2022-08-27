@@ -1,0 +1,27 @@
+.artikel h1{ /* untuk tag h1 di dalam class artikel*/
+    color: green;
+    background-color: yellow;
+    font-size: 28px;
+}
+
+.inner-artikel h1{
+    color: pink;
+    background-color: black;
+}
+
+h1.artikel{ /* untuk tag h1 di dengan class artikel*/
+    background-color: red;
+    color: blue;
+}
+
+/*cara mudah
+#nama_depan, #nama_belakang, #tanggal_lahir, #alamat{
+    background-color: gray;
+    color: black;
+}*/
+
+/*cara mudah lain*/
+.styleq{
+    background-color: silver;
+    color: black;
+}
